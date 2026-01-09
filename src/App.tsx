@@ -55,7 +55,7 @@ function App() {
     }
     }
   return (
-    <div className="bg-purple-400 flex flex-col items-center justify-center min-h-screen">
+    <div className="bg-blue-950 flex flex-col items-center justify-center min-h-screen">
       <div className="bg-black/90 text-white shadow-1g p-8 max-w-md rounded-md">
         <h1 className="text-4xl font-bold text-center mb-10 p-2">Weather App</h1>
         <SearchBar fetchWeather={fetchWeather} />

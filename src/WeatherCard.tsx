@@ -1,26 +1,3 @@
-import React from 'react'
-
-interface WeatherData{
-  name: string;
-  sys: {
-    country: string;
-  };
-  weather: {
-    name: string;
-    icon: string;
-    description: string;
-  }[];
-  main: {
-    temp: number;
-    humidity: number;
-    pressure: number;
-    feels_like: number;
-  };
-  wind: {
-    speed: number;
-  };
-}
-
 function WeatherCard({ weather }: any) {
   return (
      <div className="mt-6">
