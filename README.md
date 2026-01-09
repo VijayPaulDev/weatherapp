@@ -38,6 +38,6 @@ Displays City and the Country, temperature, description, humidity, wind speed, p
 - React 18
 - TypeScript
 - Vite
-- Tailwind CSS (or any other styling library you used)
+- Tailwind CSS
 - OpenWeatherMap API
 - axios
