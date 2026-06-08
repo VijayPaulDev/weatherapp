@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="test.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="icon" type="image/png" href="images/icons8-vip-40.png">
+</head>
+<body>
+   <div id="container">
+     <h1>Welcome to pally.exe</h1>
+     <p1>Please login to access the *VIP* pass</p1>
+        <div id="userP">
+        <form>
+        <input type="text" id="Uname" min="6" max="18" placeholder="USERNAME" required >
+        <br>
+        <input type="password" id="Pword" min="8" max="18" placeholder="PASSWORD" required>
+        <br>
+        </div>
+        <div>   
+        <input id=gamerz list="gamer" required>
+        <datalist id="gamer" placeholder="gamer type">
+            <option value="PC"></option>
+            <option value="Console"></option>
+            <option value="nintendo"></option>
+            <option value="mobile"></option>
+        </datalist>        
+        <br>
+        <br>
+        </div>
+        <div id="check">
+        <input class="checkbox" type="checkbox">
+        <label>subscribe for updates</label>
+        <input class="checkbox" type="checkbox" required>
+        <label>accept <a href="https://legal.twitch.com/en/legal/privacy-notice/" target="_blank">Privacy Poilicy</a>
+        </label>
+        <br>
+        </div>
+       <div id="login">
+        <button id="btn">login</button>
+       </div>
+
+    </form>
+    </div>
+</div>
+</body>
+</html>
