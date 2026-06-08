@@ -2,7 +2,7 @@ import { useState} from "react";
 import SearchBar from "./SearchBar";
 import WeatherCard from "./WeatherCard";
 import axios  from "axios";
-
+console.log("API KEY:", import.meta.env.VITE_API_KEY);
 interface WeatherData {
   name: string;
   sys: {

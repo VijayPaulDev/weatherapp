@@ -21,12 +21,10 @@ body {
   color: white;
 }
 
-/* Smooth animations */
 * {
   transition: all 0.25s ease;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
